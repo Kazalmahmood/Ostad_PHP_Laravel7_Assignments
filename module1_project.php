@@ -1,6 +1,6 @@
 <?php
 
-//* Number Classifier
+//* 1. Number Classifier
 // The program will classify the number as positive, negative, or zero.
 
 echo "The Number Classifier \n";
@@ -24,7 +24,7 @@ if ($number > 0) {
 /*--------------------------------*/
 
 
-//* Basic Authentication
+//* 2. Basic Authentication System
 // The program will authenticate the user based on the username and password.
 
 echo "User Authentication System \n";
@@ -47,7 +47,7 @@ if ($inputUsername === USERNAME && $inputPassword === PASSWORD) {
 /*--------------------------------*/
 
 
-//* SimpleElectricity Bill Calculator
+//* 3. Simple Electricity Bill Calculator
 // The program will calculate the electricity bill based on the units consumed.
 /* Billing Slabs:
 1. 0-100 units = 5 tk
@@ -73,7 +73,7 @@ echo "Your electricity bill is: $bill tk \n \n";
 /*--------------------------------*/
 
 
-//* Temperature Converter
+//* 4. Temperature Converter
 // The program will convert the temperature from Celsius to Fahrenheit and vice versa.
 /* Conversion Formulas:
 1. Fahrenheit = (Celsius * 9 / 5) + 32
